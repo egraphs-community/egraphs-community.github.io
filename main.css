@@ -1,0 +1,42 @@
+body {
+    max-width: 800px;
+    font-size: 120%;
+    line-height: 1.3;
+    margin: auto;
+    padding: 20px;
+    font-family: 'Open Sans', 'Roboto', sans-serif;
+}
+
+figcaption {
+    opacity: 80%;
+    font-size: 90%;
+}
+
+.word {
+    white-space: nowrap
+}
+
+footer {
+    font-size: 60%;
+    opacity: 80%;
+    margin-top: 5em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+nav a.active {
+    font-weight: bold;
+}
+
+body ul li:not(:last-child) {
+    margin-bottom: 0.3rem;
+}

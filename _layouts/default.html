@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title> {{ page.title | default: "EGRAPHS" }} </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description"
+    content="The EGRAPHS community discusses e-graphs and related technologies for program optimization, verification, and synthesis.">
+  <meta property="og:title" content="{{ page.title }}" />
+  <link rel="icon" type="image/svg+xml" href="/assets/egraph.svg">
+  <link rel="stylesheet" href="/main.css">
+</head>
+
+<body>
+  <div style="text-align: center;">
+    <h1 class="">
+      {{ page.title | default: "EGRAPHS Community" }}
+    </h1>
+    <nav>
+      <ul>
+        <li>{% include active-link.html url="/" text="Home" %}</li>
+        <li>{% include active-link.html url="/workshop/" text="Workshop" %}</li>
+        <li><a href="https://egraphs.zulipchat.com" target="_blank">EGRAPHS Zulip Chat</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <main>
+    {{ content }}
+  </main>
+
+  {% if page.no-footer %}
+  {% else %}
+  <footer>
+    Site last updated on {{ site.time | date: "%Y-%m-%d" }}.
+    Edit me on <a href="https://github.com/egraphs-community/egraphs-community.github.io/">Github</a>.
+  </footer>
+  {% endif %}
+</body>
+
+</html>

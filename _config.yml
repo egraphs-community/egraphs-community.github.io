@@ -1,0 +1,12 @@
+title: EGRAPHS Community
+description: >- # this means to ignore newlines until "baseurl:"
+  EGRAPHS Community
+baseurl: ""
+url: "https://egraphs-community.github.io/"
+
+permalink: /:categories/:title
+# markdown: kramdown
+# collections:
+#   papers:
+#     permalink: /:collection/:name:output_ext
+#     output: true
