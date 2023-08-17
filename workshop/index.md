@@ -10,7 +10,6 @@ of computing.
 
 See the page for a specific instance of the workshop for more details.
 
--   [EGRAPHS 2023](https://pldi23.sigplan.org/home/egraphs-2023) -
-    submission deadline April 5
--   [EGRAPHS 2022](https://pldi22.sigplan.org/home/egraphs-2022)
+-   [EGRAPHS 2023](https://pldi23.sigplan.org/home/egraphs-2023) at PLDI 2023
+-   [EGRAPHS 2022](https://pldi22.sigplan.org/home/egraphs-2022) at PLDI 2022
     ([archived presentation list](2022.html))
