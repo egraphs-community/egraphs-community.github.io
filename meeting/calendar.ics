@@ -1,0 +1,18 @@
+---
+layout: null
+---
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:http://egraphs.org/
+METHOD:PUBLISH{% for meeting in site.categories.meeting %}
+{%- assign date = meeting.date | date: "%Y%m%d" %}
+BEGIN:VEVENT
+UID:{{date}}@egraphs.org
+LOCATION:location
+SUMMARY:{{ meeting.title | remove: ',' | remove: ';' }}
+DESCRIPTION:More info at https://egraphs.org{{ meeting.url }}
+CLASS:PUBLIC
+DTSTART;TZID=America/Los_Angeles:{{ date }}T{{ e.starttime | default: "09:00" | date: "%H%M%S" }}
+DTEND;TZID=America/Los_Angeles:{{   date }}T{{ e.endtime   | default: "10:00" | date: "%H%M%S" }}
+END:VEVENT{% endfor %}
+END:VCALENDAR

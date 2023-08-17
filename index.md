@@ -14,3 +14,4 @@ program optimizers and synthesizers.
         ways to write <em>(a × 2) / 2</em>.
     </figcaption>
 </figure>
+
