@@ -2,6 +2,8 @@
 layout: null
 ---
 BEGIN:VCALENDAR
+X-WR-CALNAME:EGRAPHS Community Meetings
+X-WR-TIMEZONE:America/Los_Angeles
 VERSION:2.0
 PRODID:http://egraphs.org/
 METHOD:PUBLISH{% for meeting in site.categories.meeting %}
