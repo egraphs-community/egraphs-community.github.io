@@ -17,8 +17,8 @@ To add this to your Google Calendar, [click here](http://www.google.com/calendar
 {% for meeting in site.categories.meeting %}
   {% unless meeting.hide %}
   <li>
-    {{ meeting.date | date: "%Y-%m-%d" }}:
     <a href="{{meeting.url}}">
+      {{ meeting.date | date: "%Y-%m-%d" }}:
       {{ meeting.title | default: "Meeting" }}
     </a>
   </li>
