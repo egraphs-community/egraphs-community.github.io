@@ -10,9 +10,9 @@ METHOD:PUBLISH{% for meeting in site.categories.meeting %}{% unless meeting.hide
 {%- assign date = meeting.date | date: "%Y%m%d" %}
 BEGIN:VEVENT
 UID:{{date}}@egraphs.org
-SUMMARY:EGRAPHS Community Meeting
-DESCRIPTION:{{meeting.title}}
-  More info at https://egraphs.org{{ meeting.url }}
+SUMMARY:EGRAPHS - {{meeting.title}}
+DESCRIPTION:{{meeting.title}} - 
+  https://egraphs.org{{ meeting.url }}
 CLASS:PUBLIC
 DTSTART;TZID=America/Los_Angeles:{{ date }}T{{ e.starttime | default: "09:00" | date: "%H%M%S" }}
 DTEND;TZID=America/Los_Angeles:{{   date }}T{{ e.endtime   | default: "10:00" | date: "%H%M%S" }}
