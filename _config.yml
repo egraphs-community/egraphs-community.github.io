@@ -7,7 +7,7 @@ url: "https://egraphs.org"
 # publish posts (talks) with dates in the future
 future: true
 
-permalink: /:categories/:name
+permalink: /:categories/:year-:month-:day-:title
 # permalink: /:categories/:title
 # markdown: kramdown
 # collections:
