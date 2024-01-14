@@ -40,3 +40,11 @@ nav a.active {
 body ul li:not(:last-child) {
     margin-bottom: 0.3rem;
 }
+
+.callout {
+    background-color: rgba(255, 255, 0, 0.5);
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 1ex;
+    margin: 3ex;
+}
