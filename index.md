@@ -20,9 +20,15 @@ E-graphs are data structures for
 </figure>
 
 This website brings together the following resources:
-- A monthly [community meeting](meeting/) consisting of talks on Zoom.
-- The annual [EGRAPHS Workshop](workshop/) co-located with the [PLDI](https://conf.researchr.org/series/pldi) conference.
+
 - The [EGRAPHS Zulip](zulip/) to foster ongoing communication.
+
+- [Community Meetings](meeting/) with talks on Zoom the third Thursday of each month at 9am PT.
+
+    * Please check out the [EGRAPHS Zulip](zulip/) for the Zoom link!
+
+- The annual [EGRAPHS Workshop](workshop/) co-located with the [PLDI](https://conf.researchr.org/series/pldi) conference.
+
 
 All are welcome to join the EGRAPHS community by attending 
 the monthly meeting, 
