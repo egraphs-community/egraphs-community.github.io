@@ -5,6 +5,9 @@ title: EGRAPHS Community Meeting
 
 We have a monthly community meeting on the third Thursday of each month at 9:00am Pacific time.
 
+The Zoom link will be distributed on the [EGRAPHS Zulip](/zulip)
+ just in time for each session.
+
 {% assign calendar = "http://egraphs.org/meeting/calendar.ics" %}
 
 A calendar for these meetings can be found [here]({{calendar}}) in `.ics` format.
