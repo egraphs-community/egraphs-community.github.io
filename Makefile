@@ -11,7 +11,7 @@ build:
 	$(JEKYLL) build
 
 serve:
-	$(JEKYLL) serve --port $(PORT) --baseurl '/'
+	$(JEKYLL) serve --livereload --port $(PORT) --baseurl '/'
 
 clean:
 	rm -rf _site/

@@ -10,9 +10,11 @@ The Zoom link will be distributed on the [EGRAPHS Zulip](/zulip)
 
 {% assign calendar = "http://egraphs.org/meeting/calendar.ics" %}
 
-A calendar for these meetings can be found [here]({{calendar}}) in `.ics` format.
-To add this to your Google Calendar, [click here](http://www.google.com/calendar/render?cid={{calendar}}), or add it manually by hitting "Other Calendars" → "+" → "From URL" and pasting the `.ics` link above.
-
+Add this to your Google Calendar by 
+[clicking here](http://www.google.com/calendar/render?cid={{calendar}}), 
+or add it manually by hitting 
+"Other Calendars" → "+" → "From URL" and pasting this URL:
+<code style="white-space: nowrap">{{calendar}}</code>
 
 ### Meetings
 
