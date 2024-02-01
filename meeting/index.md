@@ -18,6 +18,7 @@ To add this to your Google Calendar, [click here](http://www.google.com/calendar
 
 <ul class="meetings">
 {% for meeting in site.categories.meeting %}
+  {% unless meeting.hide %}
   <li class="meeting" data-date="{{ meeting.date | date: "%Y-%m-%d" }}">
     <a href="{{meeting.url}}">
       <time>{{ meeting.date | date: "%Y-%m-%d" }}</time>:
@@ -25,6 +26,7 @@ To add this to your Google Calendar, [click here](http://www.google.com/calendar
     </a>
     {{ meeting.excerpt }}
   </li>
+  {% endunless %}
 {% endfor %}
 </ul>
 
