@@ -4,6 +4,7 @@ title: EGRAPHS Community Meeting
 ---
 
 We have a monthly community meeting on the third Thursday of each month at 9:00am Pacific time.
+Meetings are approximately 1 hour long.
 
 The Zoom link will be distributed on the [EGRAPHS Zulip](/zulip)
  just in time for each session.
