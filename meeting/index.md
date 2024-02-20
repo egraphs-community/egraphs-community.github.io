@@ -27,7 +27,6 @@ or add it manually by hitting
       <time>{{ meeting.date | date: "%Y-%m-%d" }}</time>:
       {{ meeting.title | default: "Meeting" }}
     </a>
-    {{ meeting.excerpt }}
   </li>
   {% endunless %}
 {% endfor %}
