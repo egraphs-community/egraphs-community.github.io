@@ -19,36 +19,46 @@ or add it manually by hitting
 
 ### Meetings
 
+<style>
+  .meeting.past { opacity: 50%; }
+  .meeting.future:has(+ .past) { 
+    font-weight: bold;
+  }
+</style>
+
 <ul class="meetings">
 {% for meeting in site.categories.meeting %}
-  {% unless meeting.hide %}
   <li class="meeting" data-date="{{ meeting.date | date: "%Y-%m-%d" }}">
-    <a href="{{meeting.url}}">
-      <time>{{ meeting.date | date: "%Y-%m-%d" }}</time>:
-      {{ meeting.title | default: "Meeting" }}
-    </a>
+    {% capture text %}
+        <time>
+        {{ meeting.date | date: "%Y-%m-%d" }}</time>:
+        {{ meeting.title | default: "Meeting" }}
+        {% if meeting.speaker %}
+          ({{ meeting.speaker }})
+        {% endif %}
+    {% endcapture %}
+    {% if meeting.hide %}
+      {{ text }}
+    {% else %}
+      <a href="{{meeting.url}}"> {{ text }} </a>
+    {% endif %}
   </li>
-  {% endunless %}
 {% endfor %}
 </ul>
 
-<!-- <script defer>
-  // loop over all elements of class meeting
-  var meetings = document.getElementsByClassName("meeting");
-  console.log(meetings);
-  for (let meeting of meetings) {
-    // get the date of the meeting
-    var date = meeting.getAttribute("data-date");
-    // get the current date
-    var now = new Date();
-    // if the meeting is in the past, hide it
-    if (now > new Date(date)) {
-      meeting.style.opacity = "50%";
-    }
-    console.log(meetings);
-  }
+<script defer>
+  const meetingElements = document.querySelectorAll('.meeting');
+  const currentDate = new Date();
 
-  console.log("hello")
-</script> -->
+  meetingElements.forEach((meetingElement) => {
+    const meetingDate = new Date(meetingElement.dataset.date);
+
+    if (meetingDate > currentDate) {
+      meetingElement.classList.add('future');
+    } else {
+      meetingElement.classList.add('past');
+    }
+  });
+</script>
 
 
