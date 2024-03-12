@@ -29,18 +29,17 @@ or add it manually by hitting
 <ul class="meetings">
 {% for meeting in site.categories.meeting %}
   <li class="meeting" data-date="{{ meeting.date | date: "%Y-%m-%d" }}">
+    <time>{{ meeting.date | date: "%Y-%m-%d" }}</time>:
     {% capture text %}
-        <time>
-        {{ meeting.date | date: "%Y-%m-%d" }}</time>:
         {{ meeting.title | default: "Meeting" }}
-        {% if meeting.speaker %}
-          ({{ meeting.speaker }})
-        {% endif %}
     {% endcapture %}
     {% if meeting.hide %}
       {{ text }}
     {% else %}
       <a href="{{meeting.url}}"> {{ text }} </a>
+    {% endif %}
+    {% if meeting.speaker %}
+      ({{ meeting.speaker }})
     {% endif %}
   </li>
 {% endfor %}
