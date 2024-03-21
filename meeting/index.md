@@ -47,12 +47,17 @@ or add it manually by hitting
 
 <script defer>
   const meetingElements = document.querySelectorAll('.meeting');
-  const currentDate = new Date();
+  let currentDate = new Date();
+  currentDate.setHours(0, 0, 0, 0);
+  // currentDate.setDate(currentDate.getDate() + 1); // for testing
 
   meetingElements.forEach((meetingElement) => {
-    const meetingDate = new Date(meetingElement.dataset.date);
+    let dateString = `${meetingElement.dataset.date}T09:00:00-0700`;
+    let meetingDate = new Date(dateString);
+    // console.log(dateString, meetingDate);
+    meetingDate.setHours(0, 0, 0, 0);
 
-    if (meetingDate > currentDate) {
+    if (meetingDate >= currentDate) {
       meetingElement.classList.add('future');
     } else {
       meetingElement.classList.add('past');
