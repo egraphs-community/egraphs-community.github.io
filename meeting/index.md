@@ -21,8 +21,8 @@ or add it manually by hitting
 
 <style>
   .meeting.past { opacity: 50%; }
-  .meeting.future:has(+ .past) { 
-    font-weight: bold;
+  .meeting.future:has(+ .past)::marker {
+    color: red;
   }
 </style>
 
