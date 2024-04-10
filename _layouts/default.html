@@ -46,6 +46,25 @@
       Github</a>.
   </footer>
   {% endif %}
+  <script defer>
+    const meetingElements = document.querySelectorAll('[data-date]');
+    let currentDate = new Date();
+    currentDate.setHours(0, 0, 0, 0);
+    // currentDate.setDate(currentDate.getDate() + 1); // for testing
+
+    meetingElements.forEach((meetingElement) => {
+      let dateString = `${meetingElement.dataset.date}T09:00:00-0700`;
+      let meetingDate = new Date(dateString);
+      // console.log(dateString, meetingDate);
+      meetingDate.setHours(0, 0, 0, 0);
+
+      if (meetingDate >= currentDate) {
+        meetingElement.classList.add('future');
+      } else {
+        meetingElement.classList.add('past');
+      }
+    });
+  </script>
 </body>
 
 </html>

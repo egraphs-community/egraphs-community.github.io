@@ -48,3 +48,11 @@ body ul li:not(:last-child) {
     padding: 1ex;
     margin: 3ex;
 }
+
+.gray {
+    background-color: rgba(0, 0, 0, 0.07);
+}
+
+.hide-if-past.past {
+    display: none;
+}

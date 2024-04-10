@@ -2,6 +2,15 @@
 layout: default
 ---
 
-<h2> {{ page.date | date: "%Y-%m-%d"}}: {{ page.title }} </h2>
+{% assign date = page.date | date: "%Y-%m-%d" %}
+
+<h2> {{ page.title }} </h2>
+<h4> {{ date }} </h4>
+
+<div class="callout gray hide-if-past" data-date="{{ date }}">
+    Talk begins at 9am PT on Zoom.
+    The Zoom link will be distributed on the <a href="/zulip">EGRAPHS Zulip</a>
+    just in time for each session.
+</div>
 
 {{ content }}
