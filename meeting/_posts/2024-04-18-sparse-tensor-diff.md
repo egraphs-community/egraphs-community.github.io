@@ -8,6 +8,8 @@ speaker: Amir Shaikhha
  will present their recent work (from [CGO 2024](https://conf.researchr.org/info/cgo-2024/accepted-papers))
  on [A Tensor Algebra Compiler for Sparse Differentiation](https://arxiv.org/pdf/2303.07030.pdf).
 
+Slide from the presentation: [pdf]({{ "/assets/2024-04-18-sdql.pdf" | absolute_url }}).
+
 ## Abstract:
 Tensor programs often need to process large tensors (vectors, matrices, or higher-order tensors) that require a specialized storage format for their memory layout. Several such layouts have been proposed in the literature, such as the Coordinate Format, the Compressed Sparse Row format, and many others, that were especially designed to optimally store tensors with specific sparsity properties. However, existing tensor processing systems require specialized extensions in order to take advantage of every new storage format. In this paper, we describe a system that allows users to define flexible storage formats in a declarative tensor query language similar to the language used by the tensor program. The programmer only needs to write storage mappings, which describe, in a declarative way, how the tensors are laid out in main memory. Then, we describe a cost-based optimizer that optimizes the tensor program for the specific memory layout. Additionally, our design enables automatic differentiation (AD) of sparse tensors; state-of-the-art tensor frameworks only support the AD computation for dense tensors, which results in substantial memory and computational overheads. We demonstrate empirically significant performance improvements compared to state-of-the-art tensor processing systems.
 
