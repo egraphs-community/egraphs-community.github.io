@@ -9,6 +9,9 @@ E-graphs are data structures for
  they have recently been employed to build new kinds of 
  program optimizers and synthesizers.
 
+Curious what people are doing with e-graphs?
+Check out [Philip Zucker's](https://www.philipzucker.com/) page on [Awesome E-graphs](https://github.com/philzook58/awesome-egraphs).
+
 <figure>
     <img style="width: 100%;" src="/assets/4-egraphs.svg">
     <figcaption>
