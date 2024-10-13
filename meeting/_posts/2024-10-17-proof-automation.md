@@ -10,4 +10,4 @@ Specifically, proof obligations can often feel like doing 10 repetitive and not 
 After the first or second case, it can become boring for the proof engineer. 
 In this talk, we will report on our exploration of simplifying goals in Coq using a proof-search technique based on E-graphs.
 
-(Thomas Bourgeat)[https://people.epfl.ch/thomas.bourgeat?lang=en] is an Assistant Professor at EPFL.
+[Thomas Bourgeat](https://people.epfl.ch/thomas.bourgeat?lang=en) is an Assistant Professor at EPFL.
