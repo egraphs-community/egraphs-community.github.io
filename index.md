@@ -39,3 +39,5 @@ joining the Zulip,
 or submitting to or attending the workshop.
 The EGRAPHS community is organized by an cross-institutional [advisory board](about).
 
+Have a talk (self-)nomination or other suggestion? Reach out on [Zulip](zulip/) or via the [EGRAPHS Suggestion Box](https://docs.google.com/forms/d/e/1FAIpQLSehJpm3g3S8rt30qOjadpqVI_AjE_5Eo-qq70vFZNVS1o6nIg/viewform?usp=sf_link)!
+
