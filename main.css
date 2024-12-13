@@ -46,7 +46,8 @@ body ul li:not(:last-child) {
     border: 3px solid black;
     border-radius: 5px;
     padding: 1ex;
-    margin: 3ex;
+    width: fit-content;
+    margin: auto;
 }
 
 .gray {

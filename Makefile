@@ -1,8 +1,6 @@
 .PHONY: all clean build serve
 
-# the :z is necessary on SELinux systems like Fedora
-# CONTAINER = podman run --network slirp4netns:port_handler=slirp4netns -it --rm -v "${PWD}":/usr/src/app:z -p "${PORT}:${PORT}" starefossen/github-pages
-CONTAINER = podman run --network=host -it --rm -v "${PWD}":/usr/src/app:z -p "${PORT}:${PORT}" starefossen/github-pages
+CONTAINER = docker run --rm --volume="${PWD}:/srv/jekyll" -it -p 4000:4000 jekyll/jekyll:4.2.0 jekyll serve
 
 PORT ?= 4000
 JEKYLL ?= ${CONTAINER} jekyll

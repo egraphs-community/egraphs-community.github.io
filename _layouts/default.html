@@ -25,6 +25,10 @@
         <li>{% include active-link.html url="/zulip/" text="Zulip Chat" %}</li>
       </ul>
     </nav>
+    <div class="callout">
+      <a href="https://pldi25.sigplan.org/home/egraphs-2025">EGRAPHS 2025</a>
+      will take place at PLDI 2025 in Seoul!
+    </div>
   </div>
 
   <main>
@@ -34,8 +38,8 @@
   {% if page.no-footer %}
   {% else %}
   <footer>
-    Site last updated on {{ site.time | date: "%Y-%m-%d" }}.
-    <a href="https://github.com/egraphs-community/egraphs-community.github.io/edit/main/{{page.path}}">Edit me on
+    Site last updated on {{ site.time | date: " %Y-%m-%d" }}. <a
+      href="https://github.com/egraphs-community/egraphs-community.github.io/edit/main/{{page.path}}">Edit me on
       Github</a>.
   </footer>
   {% endif %}
