@@ -28,6 +28,7 @@ or add it manually by hitting
 
 <ul class="meetings">
 {% for meeting in site.categories.meeting %}
+  {% unless meeting.draft %}
   <li class="meeting" data-date="{{ meeting.date | date: "%Y-%m-%d" }}">
     <time>{{ meeting.date | date: "%Y-%m-%d" }}</time>:
     {% capture text %}
@@ -42,5 +43,6 @@ or add it manually by hitting
       ({{ meeting.speaker }})
     {% endif %}
   </li>
+  {% endunless %}
 {% endfor %}
 </ul>
