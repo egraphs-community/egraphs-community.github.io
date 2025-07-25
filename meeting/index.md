@@ -36,11 +36,12 @@ or add it manually by hitting
     {% endcapture %}
     {% if meeting.hide %}
       {{ text }}
+    {% elsif meeting.speaker %}
+      {{ meeting.speaker }}
+      <br>
+      <a href="{{meeting.url}}"> {{ text }} </a>
     {% else %}
       <a href="{{meeting.url}}"> {{ text }} </a>
-    {% endif %}
-    {% if meeting.speaker %}
-      ({{ meeting.speaker }})
     {% endif %}
   </li>
   {% endunless %}

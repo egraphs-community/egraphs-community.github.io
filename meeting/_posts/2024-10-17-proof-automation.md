@@ -1,7 +1,7 @@
 ---
 layout: meeting
 title: "Improving Proof Automation with E-Graphs for Goal Simplification: Experiments and Challenges"
-author: Thomas Bourgeat
+speaker: Thomas Bourgeat
 ---
 
 One of the challenges in using proof assistants for verifying software or hardware systems lies in the lack of robust automation to discharge (or simplify) reasonably easy goals. 

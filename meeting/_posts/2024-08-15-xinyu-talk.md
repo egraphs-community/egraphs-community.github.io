@@ -1,7 +1,7 @@
 ---
 layout: meeting
 title: Synthesis of programs with local variables (and its applications to web automation)
-author: Xinyu Wang
+speaker: Xinyu Wang
 ---
 
 Xinyu will talk about a recent line of work that aims to synthesize web automation programs from user demonstrations. 

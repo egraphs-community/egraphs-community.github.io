@@ -1,7 +1,7 @@
 ---
 layout: meeting
 title: "Tree-Width Extraction"
-author: Chun Kit Lam and Glenn Sun
+speaker: Chun Kit Lam and Glenn Sun
 ---
 
 This weeks presentation will feature two talks on the topic of extraction based on a measure called tree-width. 

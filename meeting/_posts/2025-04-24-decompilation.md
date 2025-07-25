@@ -1,7 +1,7 @@
 ---
 layout: meeting
 title: "Hardware Decompilation: Recovering Abstraction in Digital Circuits"
-author: Zach Sisco
+speaker: Zach Sisco
 ---
 
 Zach will present his work on hardware decompilation, leveraging equality saturation.

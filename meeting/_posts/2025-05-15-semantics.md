@@ -1,7 +1,7 @@
 ---
 layout: meeting
 title: "Semantic foundations of equality saturation"
-author: Yihong Zhang
+speaker: Yihong Zhang
 ---
 
 Yihong will present his work on [e-graph semantics](https://arxiv.org/abs/2501.02413)!
