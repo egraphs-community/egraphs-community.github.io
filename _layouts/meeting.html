@@ -5,6 +5,9 @@ layout: default
 {% assign date = page.date | date: "%Y-%m-%d" %}
 
 <h2> {{ page.title }} </h2>
+
+Speaker: {{ page.speaker }}
+
 <h4> {{ date }} </h4>
 
 <div class="callout gray hide-if-past" data-date="{{ date }}">
@@ -13,4 +16,12 @@ layout: default
     just in time for each session.
 </div>
 
+
 {{ content }}
+
+{% if page.video %}
+<h3> Recording </h3>
+<div class="video">
+    <iframe width="560" height="315" src="{{ page.video }}" frameborder="0" allowfullscreen></iframe>
+</div>
+{% endif %}

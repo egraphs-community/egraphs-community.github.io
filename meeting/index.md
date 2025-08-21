@@ -9,6 +9,9 @@ Meetings are approximately 1 hour long.
 The Zoom link will be distributed on the [EGRAPHS Zulip](/zulip)
  just in time for each session.
 
+We are now recording the meetings and posting them on YouTube
+ on the [EGRAPHS Community YouTube channel](https://www.youtube.com/@egraphs-community).
+
 {% assign calendar = "http://egraphs.org/meeting/calendar.ics" %}
 
 Add this to your Google Calendar by 
@@ -38,6 +41,7 @@ or add it manually by hitting
       {{ text }}
     {% elsif meeting.speaker %}
       {{ meeting.speaker }}
+      <!-- {% if meeting.video %}📹{% endif %} -->
       <br>
       <a href="{{meeting.url}}"> {{ text }} </a>
     {% else %}
