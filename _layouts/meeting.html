@@ -4,18 +4,13 @@ layout: default
 
 {% assign date = page.date | date: "%Y-%m-%d" %}
 
+Talks begin at 9am PT on <a href="https://berkeley.zoom.us/j/96954799525">Zoom</a>.
+
 <h2> {{ page.title }} </h2>
 
 Speaker: {{ page.speaker }}
 
 <h4> {{ date }} </h4>
-
-<div class="callout gray hide-if-past" data-date="{{ date }}">
-    Talk begins at 9am PT on Zoom.
-    The Zoom link will be distributed on the <a href="/zulip">EGRAPHS Zulip</a>
-    just in time for each session.
-</div>
-
 
 {{ content }}
 

@@ -6,8 +6,7 @@ title: EGRAPHS Community Meeting
 We have a monthly community meeting on the third Thursday of each month at 9:00am Pacific time.
 Meetings are approximately 1 hour long.
 
-The Zoom link will be distributed on the [EGRAPHS Zulip](/zulip)
- just in time for each session.
+The [Zoom link is here](https://berkeley.zoom.us/j/96954799525).
 
 We are now recording the meetings and posting them on YouTube
  on the [EGRAPHS Community YouTube channel](https://www.youtube.com/@egraphs-community).
