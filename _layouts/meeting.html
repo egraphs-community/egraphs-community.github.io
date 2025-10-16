@@ -1,5 +1,7 @@
 ---
 layout: default
+# video link must be the normal youtube link, like this
+# video: https://www.youtube.com/watch?v=VIDEO_ID
 ---
 
 {% assign date = page.date | date: "%Y-%m-%d" %}
@@ -10,13 +12,14 @@ Talks begin at 9am PT on <a href="https://berkeley.zoom.us/j/96954799525">Zoom</
 
 Speaker: {{ page.speaker }}
 
+{% if page.video %}
+{% assign embed = page.video | replace: "watch?v=", "embed/" %}
+<h3> <a href="{{ page.video }}">Video</a> </h3>
+<div class="video">
+    <iframe width="560" height="315" src="{{ embed }}" frameborder="0" allowfullscreen></iframe>
+</div>
+{% endif %}
+
 <h4> {{ date }} </h4>
 
 {{ content }}
-
-{% if page.video %}
-<h3> Recording </h3>
-<div class="video">
-    <iframe width="560" height="315" src="{{ page.video }}" frameborder="0" allowfullscreen></iframe>
-</div>
-{% endif %}

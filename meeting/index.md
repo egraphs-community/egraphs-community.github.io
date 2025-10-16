@@ -22,7 +22,11 @@ or add it manually by hitting
 ### Meetings
 
 <style>
+  .meeting { margin-bottom: 0.3em; }
   .meeting.past { opacity: 50%; }
+  .meeting.future:has(+ .past) {
+    margin-bottom: 2em;
+  }
   .meeting.future:has(+ .past)::marker {
     color: red;
   }
