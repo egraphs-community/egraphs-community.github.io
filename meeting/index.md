@@ -3,21 +3,18 @@ layout: default
 title: EGRAPHS Community Meeting
 ---
 
-We have a monthly community meeting on the third Thursday of each month at 9:00am Pacific time.
-Meetings are approximately 1 hour long.
-
-The [Zoom link is here](https://berkeley.zoom.us/j/96954799525).
-
-We are now recording the meetings and posting them on YouTube
- on the [EGRAPHS Community YouTube channel](https://www.youtube.com/@egraphs-community).
+We have regular, open community meetings to present work. Any and all are welcome to join!
+If you have recommendations (including self-nominations) for speakers, please
+ contact the [organizers](/about/).
 
 {% assign calendar = "http://egraphs.org/meeting/calendar.ics" %}
 
-Add this to your Google Calendar by 
-[clicking here](http://www.google.com/calendar/render?cid={{calendar}}), 
-or add it manually by hitting 
-"Other Calendars" → "+" → "From URL" and pasting this URL:
-<code style="white-space: nowrap">{{calendar}}</code>
+- 📅 Meetings are the 3rd Thursday of each month at 9:00am Pacific time
+  - [Add to Google Calendar](http://www.google.com/calendar/render?cid={{calendar}})
+  - or add it manually by hitting "Other Calendars" → "+" → "From URL" and pasting:
+    <code style="white-space: nowrap">{{calendar}}</code>
+- 📹 [Zoom link](https://berkeley.zoom.us/j/96954799525)
+- 📺 [YouTube Channel](https://www.youtube.com/@egraphs-community) for recordings
 
 ### Meetings
 
