@@ -10,6 +10,7 @@ of computing.
 
 See the page for a specific instance of the workshop for more details.
 
+-   [EGRAPHS 2026](https://pldi26.sigplan.org/home/egraphs-2026) at PLDI 2026
 -   [EGRAPHS 2025](https://pldi25.sigplan.org/home/egraphs-2025) at PLDI 2025
 -   [EGRAPHS 2024](https://pldi24.sigplan.org/home/egraphs-2024) at PLDI 2024
 -   [EGRAPHS 2023](https://pldi23.sigplan.org/home/egraphs-2023) at PLDI 2023
