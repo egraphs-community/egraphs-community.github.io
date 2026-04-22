@@ -5,9 +5,10 @@ layout: default
 The EGRAPHS community brings together researchers and practitioners 
 that use e-graphs and related techniques.
 E-graphs are data structures for
- working with large equivalence classes of programs;
+ working with large equivalence classes of programs.
+While originally designed for use in automated theorem provers (such as SMT solvers),
  they have recently been employed to build new kinds of 
- program optimizers and synthesizers.
+ program optimizers and synthesizers using a technique called _equality saturation_.
 
 Curious what people are doing with e-graphs?
 Check out [Philip Zucker's](https://www.philipzucker.com/) page on [Awesome E-graphs](https://github.com/philzook58/awesome-egraphs).
