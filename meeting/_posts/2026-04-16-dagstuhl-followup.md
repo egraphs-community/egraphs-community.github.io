@@ -17,5 +17,7 @@ We will have short presentations from participants about their work/directions
  that have come up from the seminar. There will also be time for open discussion.
 
 Anyone is welcome to join, regardless of whether they attended the seminar.
+
+Note: this session was not recorded.
  
 
