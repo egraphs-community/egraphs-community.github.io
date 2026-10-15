@@ -22,3 +22,12 @@ prototype inductive prover [Vegie](https://github.com/gzakhour/vegie).
 We conclude with future extensions that can benefit the theorem-proving
 ecosystem, such as richer relations between versions and parallelism, developed as part of our
 [Smart E-Graphs](https://prg-grp.github.io/egraphs-extensions-website) project.
+
+Links:
+- Versioned E-Graphs
+  - Paper: https://dl.acm.org/doi/10.1145/3808249
+  - Artifact: https://zenodo.org/records/18769553
+  - Jupyter: https://colab.research.google.com/drive/1rSgg13v9yKvtNQIsORHPSskKQFEj4g4s
+- Vegie Prover
+  - Paper: https://programming-group.com/publications
+  - Artifact: https://github.com/gzakhour/vegie
