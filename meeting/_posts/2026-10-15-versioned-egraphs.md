@@ -5,7 +5,7 @@ speaker: "Jahrim Gabriele Cesario and George Zakhour"
 # draft: true # hide from calendar and page
 # hide: true # hide from calendar
 # video link must normal youtube link
-# video: https://www.youtube.com/watch?v=VIDEO_ID
+video: https://www.youtube.com/watch?v=92puvPp-zNk
 ---
 
 E-graphs were first introduced as a data structure for equational reasoning in
@@ -22,4 +22,3 @@ prototype inductive prover [Vegie](https://github.com/gzakhour/vegie).
 We conclude with future extensions that can benefit the theorem-proving
 ecosystem, such as richer relations between versions and parallelism, developed as part of our
 [Smart E-Graphs](https://prg-grp.github.io/egraphs-extensions-website) project.
-```
